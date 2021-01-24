@@ -1,0 +1,1 @@
+TODO: Copiar el texti de la licencia  http://www.gnu.org/licenses/gpl.html
