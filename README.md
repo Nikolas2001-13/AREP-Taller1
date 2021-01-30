@@ -35,6 +35,12 @@ Para correr las pruebas del programa habrá que ejecutar el comando
 
 `$ mvn test`
 
+## Documentacion
+
+Para generar la documentación habrá que ejecutar el siguiente comando
+
+`$ mvn javadoc:javadoc`
+
 ## Construido Con
 
 * [JUnit](https://mvnrepository.com/artifact/junit/junit) - Test framework
