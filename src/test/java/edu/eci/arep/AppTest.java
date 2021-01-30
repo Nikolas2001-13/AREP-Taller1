@@ -2,67 +2,72 @@ package edu.eci.arep;
 
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest
-        extends TestCase
 {
     @Test
     public void testMediaCorrecta() {
         LinkedList list = new LinkedList();
+        Double x = 5.0;
         list.addNode(5.0);
         list.addNode(1.0);
         list.addNode(10.0);
         list.addNode(2.0);
         list.addNode(7.0);
-        assertEquals(5.0, Operations.mean(list));
+        assertEquals(x, Operations.mean(list));
     }
 
-}
 /*
 
     @Test
     public void testMediaIncorrecta()
     {
         LinkedList list = new LinkedList();
+        Double x = 7.0;
         list.addNode(5.0);
         list.addNode(1.0);
         list.addNode(10.0);
         list.addNode(2.0);
         list.addNode(7.0);
-        assertNotEquals(7.0, Operations.mean(list));
+        assertNotEquals(x, Operations.mean(list));
     }
 
     @Test
     public void testStdDevCorrecta()
     {
         LinkedList list = new LinkedList();
+        Double x = 3.67;
         list.addNode(5.0);
         list.addNode(1.0);
         list.addNode(10.0);
         list.addNode(2.0);
         list.addNode(7.0);
-        assertEquals(3.67, Operations.stdDev(list));
+        assertEquals(x, Operations.stdDev(list));
     }
 
     @Test
     public void testStdDevIncorrecta()
     {
         LinkedList list = new LinkedList();
+        Double x = 5.67;
         list.addNode(5.0);
         list.addNode(1.0);
         list.addNode(10.0);
         list.addNode(2.0);
         list.addNode(7.0);
-        assertNotEquals(5.67, Operations.stdDev(list));
+        assertNotEquals(x, Operations.stdDev(list));
     }
 
     @org.junit.Test
     public void testMediaColumnaUno(){
         LinkedList list = new LinkedList();
+        Double x = 550.60;
         list.addNode(160.0);
         list.addNode(591.0);
         list.addNode(114.0);
@@ -73,12 +78,13 @@ public class AppTest
         list.addNode(1657.0);
         list.addNode(624.0);
         list.addNode(1503.0);
-        assertEquals(550.60,Operations.mean(list));
+        assertEquals(x,Operations.mean(list));
     }
 
     @org.junit.Test
     public void testStdDevColumnaUno(){
         LinkedList list = new LinkedList();
+        Double x = 572.03;
         list.addNode(160.0);
         list.addNode(591.0);
         list.addNode(114.0);
@@ -89,6 +95,6 @@ public class AppTest
         list.addNode(1657.0);
         list.addNode(624.0);
         list.addNode(1503.0);
-        assertEquals(572.03,Operations.stdDev(list));
-    }
-}*/
+        assertEquals(x,Operations.stdDev(list));
+    }*/
+}
