@@ -1,5 +1,3 @@
-TODO: Copiar el texti de la licencia  http://www.gnu.org/licenses/gpl.html
-
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
