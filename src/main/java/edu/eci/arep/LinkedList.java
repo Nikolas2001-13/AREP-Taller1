@@ -6,7 +6,7 @@ public class LinkedList {
     public Node tail = null;
 
     /**
-     * Añade el nuevo elemento al nodo
+     * Agrega el nuevo elemento al nodo
      * @param data tipo double
      */
     public void addNode(double data) {
@@ -22,7 +22,7 @@ public class LinkedList {
     }
 
     /**
-     * Calcula el temaño de nuestra LinkedList
+     * Calcula la longitud de nuestra LinkedList
      * @return size tipo int
      */
     public int size() {
