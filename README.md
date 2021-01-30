@@ -47,4 +47,4 @@ Para correr las pruebas del programa habrá que ejecutar el comando
 
 ## Licencia
 
-[LICENSE.txt](http://www.gnu.org/licenses/gpl.html) 
+[LICENSE.md](http://www.gnu.org/licenses/gpl.html) 
